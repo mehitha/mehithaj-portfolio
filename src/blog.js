@@ -22,7 +22,7 @@ const Blog = () => {
                 </div>
                 <div className="three" >
                 
-                <p> A Frontend-focused Web Developer building the Frontend of Websites & Web Applications that leads to the success of the overall project.</p>
+                <p> A backend-focused Web Developer building the Frontend of Websites & Web Applications that leads to the success of the overall project.</p>
             </div>
         </div>
     );
