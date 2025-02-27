@@ -87,7 +87,7 @@ input{
 .three{
   
     text-align: center; 
-    max-width: 500px;    
+    max-width: 400px;    
     padding: 10px 20px;  
     margin: auto;        
     line-height: 1.5;   
@@ -139,6 +139,7 @@ body {
   background: rgba(0, 0, 0, 0.6); /* Semi-transparent navbar */
   padding: 15px;
   border-radius: 10px;
+  width: fit-content;
 }
 
 .nav-menu li {
@@ -338,8 +339,8 @@ body {
 }
 
 .logo {
-  font-size: 24px;
-  margin-left: 20px;
+  font-size: 20px;
+  margin-left: 5p;
 }
 
 .nav-menu {
@@ -369,7 +370,7 @@ body {
 
 /* Description Box */
 .three {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
@@ -433,4 +434,7 @@ body {
 .header .nav-menu ul{
   padding-block: inherit;
 
+}
+.header .two .three{
+  text-align: center;
 }

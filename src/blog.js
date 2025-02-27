@@ -27,7 +27,7 @@ const Blog = () => {
                     <li><a href="/home">Home</a></li>
                     <li><a href="/contact">Cont</a></li>
                     <li><a href="https://github.com/mehitha" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">Insta</a></li>
+                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">instagram</a></li>
                 </ul>
             </nav>
 
@@ -38,7 +38,7 @@ const Blog = () => {
             </div>
 
             <div className="three">
-                <p>A backend-focused Web Developer building the backend of Websites & Web Applications that leads to the success of the overall project.</p>
+                <p>A full stack-focused Web Developer building the fullstack of Websites & Web Applications that leads to the success of the overall project.</p>
             </div>
         </div>
     );
