@@ -1,12 +1,11 @@
-import { getAllByDisplayValue } from "@testing-library/dom";
 import "./index.css";
 import { useEffect } from "react";
 
 const Blog = () => {
     useEffect(() => {
-        document.querySelector(".hero").classList.add("animated");
-        document.querySelector(".header").classList.add("nav-animated");
-        document.querySelector(".three").classList.add("animated");
+        document.querySelector(".hero")?.classList.add("animated");
+        document.querySelector(".header")?.classList.add("nav-animated");
+        document.querySelector(".three")?.classList.add("animated");
     }, []);
 
     return (
@@ -22,19 +21,19 @@ const Blog = () => {
 
             {/* Header */}
             <nav className="header">
-                <h1 className="logo" >JMehitha</h1>
+                <span className="logo">JMehitha</span>
                 <ul className="nav-menu">
                     <li><a href="/home">Home</a></li>
-                    <li><a href="/contact">Cont</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://github.com/mehitha" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">instagram</a></li>
+                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                 </ul>
             </nav>
 
             {/* Hero Section */}
             <div className="hero">
                 <h2>Hey, I'M</h2>
-                <h1 className="two">J MEHITHA</h1> 
+                <h1>J MEHITHA</h1> 
             </div>
 
             <div className="three">
@@ -45,3 +44,4 @@ const Blog = () => {
 };
 
 export default Blog;
+
