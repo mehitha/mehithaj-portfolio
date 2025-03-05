@@ -39,9 +39,17 @@ const Blog = () => {
             <div className="three">
                 <p>A full stack-focused Web Developer building the fullstack of Websites & Web Applications that leads to the success of the overall project.</p>
             </div>
+            <footer className="second-footer">
+                <div className="social-links">
+                    <a href="https://github.com/mehitha" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linkedin.com/in/mehitha" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://twitter.com/mehitha" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </div>
+                <p>Designed & Developed by JMehitha</p>
+            </footer>
         </div>
+        
     );
 };
 
 export default Blog;
-
