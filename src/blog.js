@@ -26,7 +26,7 @@ const Blog = () => {
                     <li><a href="/home">Home</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="https://github.com/mehitha" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">Insta</a></li>
                 </ul>
             </nav>
 
