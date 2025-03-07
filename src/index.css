@@ -499,81 +499,41 @@ body {
   font-size: 50px;
   
 }
-/* .header{display: flex;
-  justify-content: center; 
-  align-items: center; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 10px 0;
-  z-index: 10; 
-  background-color: #fff;}
-   */
+
 .header .logo{
 padding-left: 40px;
 padding-top: 5px;
 padding-bottom: 4px;
 font-family: Georgia, 'Times New Roman', Times, serif;
-
-
 }
-/* Footer Styling */
-/* Footer Styling */
-
-  /* background-color: black;
-  color: white;
-  text-align: center;
-  padding: 15px 20px;
-  width: 100%;
-  margin-top: 40px; */
   
 footer{
   margin: bottom 1px;
   margin-top: 20px;
-
 }
 
 
 
 footer p {
-  /* margin: 0; */
   font-size: 16px;
   padding-bottom: 10px;
 }
-
-/* .footer-links {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-} */
 
 .footer-links li {
   display: inline;
 }
 
-/* .footer-links a {
-  color: #f1c40f;
-  text-decoration: none;
-  transition: color 0.3s; */
-/* } */
 
 .footer-links a:hover {
   color: white;
 }
 
-/* Second Footer */
 .second-footer {
   background-color: #222;
   color: #bbb;
   text-align: center;
   border-radius: 10px;
-  /* margin-bottom: 0%; */
   background: rgba(0, 0, 0, 0.6);
-  /* margin-bottom: -1px; */
 }
 
 .social-links {
@@ -595,7 +555,6 @@ footer p {
   color: white;
 }
 
-/* Responsive Footer */
 @media (max-width: 768px) {
   .footer, .second-footer {
       font-size: 14px;
@@ -616,7 +575,7 @@ footer p {
 .nav-menu:hover{
   color: #222;
 }
-/* Education Page Styling */
+
 .education-container {
   text-align: center;
   padding: 40px 20px;
@@ -680,7 +639,6 @@ footer p {
   padding: 10px 15px;
   border-radius: 5px;
   font-weight: bold;
-   /* transition: background 0.3s ease; */
 }
 .onee{
   padding-top: 60px;
@@ -688,7 +646,7 @@ footer p {
   font-size: 25px;
   color:#f4f4f4;
 }
-/* 📚 Education Section Styles */
+
 .education-container, .courses-container {
   max-width: 900px;
   margin: 60px auto;
@@ -723,8 +681,6 @@ footer p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 10px;
-  /* linear-gradient(135deg, #f3f3f3, #ffffff) */
- 
 }
 
 .education-item:hover, .education-container:hover, .course-item:hover {
@@ -750,7 +706,6 @@ h3 {
   color: #444;
 }
 
-/* 🔹 Responsive Design */
 @media (max-width: 768px) {
   .education-container, .courses-container {
     width: 90%;
