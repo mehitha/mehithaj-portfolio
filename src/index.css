@@ -12,7 +12,7 @@ nav{
 li,h1,ul{
   display: inline;
   padding: 5px;
-
+  padding-right: 2px;
 }
 
 ul{
@@ -69,7 +69,8 @@ input{
   cursor: pointer;
 }
 .hero{
-  padding-top: 100px;
+  padding-top: 75px;
+  
 
   
 }
@@ -90,7 +91,8 @@ input{
     max-width: 400px;    
     padding: 10px 20px;  
     margin: auto;        
-    line-height: 1.5;   
+    line-height: 1.5; 
+    
     
 }
 @keyframes fadeInUp {
@@ -335,7 +337,7 @@ body {
 /* Header */
  .header {
   background: rgba(0, 0, 0, 0.6);
-   padding: 10px; 
+   padding: 15px; 
    border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -343,10 +345,11 @@ body {
   /* width: fit-content; */
   /* padding-left: 1rem; */
   /* position: fixed; */
-  /* width: fit-content; */
+  /* width: fit-content; 
   /* margin-right: 10px; */
   /* position:fixed; */
   justify-content: center;
+  
   /* padding: 15px 30px; */
   
   } 
@@ -494,40 +497,46 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Footer Styling */
 /* Footer Styling */
-.footer {
-  background-color: black;
+
+  /* background-color: black;
   color: white;
   text-align: center;
   padding: 15px 20px;
   width: 100%;
-  margin-top: 40px;
-
+  margin-top: 40px; */
+  
+footer{
+  margin: bottom 1px;
+  margin-top: 20px;
 
 }
 
-.footer p {
-  margin: 0;
+
+
+footer p {
+  /* margin: 0; */
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
-.footer-links {
+/* .footer-links {
   list-style: none;
   padding: 0;
   margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 20px;
-}
+} */
 
 .footer-links li {
   display: inline;
 }
 
-.footer-links a {
+/* .footer-links a {
   color: #f1c40f;
   text-decoration: none;
-  transition: color 0.3s;
-}
+  transition: color 0.3s; */
+/* } */
 
 .footer-links a:hover {
   color: white;
@@ -538,15 +547,18 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #222;
   color: #bbb;
   text-align: center;
-  padding: 15px;
-  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 0%;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: -1px;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
 }
 
 .social-links a {
@@ -564,6 +576,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 @media (max-width: 768px) {
   .footer, .second-footer {
       font-size: 14px;
+
   }
 
   .footer-links {
@@ -579,4 +592,72 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav-menu:hover{
   color: #222;
+}
+/* Education Page Styling */
+.education-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.education-container h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.education-container p {
+  font-size: 16px;
+  color: #666;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.course-item:hover {
+  transform: scale(1.05);
+}
+
+.course-item h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.course-item p {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.course-item a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+   /* transition: background 0.3s ease; */
+}
+.onee{
+  padding-top: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color:#f4f4f4;
 }

@@ -1,5 +1,7 @@
 import "./index.css";
 import { useEffect } from "react";
+// import { Link } from 'react-router-dom';
+
 
 const Blog = () => {
     useEffect(() => {
@@ -19,17 +21,6 @@ const Blog = () => {
                 <div className="circle"></div>
             </div>
 
-            {/* Header */}
-            <nav className="header">
-                <span className="logo">JMehitha</span>
-                <ul className="nav-menu">
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://github.com/mehitha" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://instagram.com/mehitha_jf" target="_blank" rel="noopener noreferrer">Insta</a></li>
-                </ul>
-            </nav>
-
             {/* Hero Section */}
             <div className="hero">
                 <h2>Hey, I'M</h2>
@@ -37,18 +28,15 @@ const Blog = () => {
             </div>
 
             <div className="three">
-                <p>A full stack-focused Web Developer building the fullstack of Websites & Web Applications that leads to the success of the overall project.</p>
+                <p>A full stack-focused Web Developer building the full stack of Websites & Web Applications that lead to the success of the overall project.</p>
             </div>
-            <footer className="second-footer">
-                <div className="social-links">
-                    <a href="https://github.com/mehitha" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="https://linkedin.com/in/mehitha" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href="https://twitter.com/mehitha" target="_blank" rel="noopener noreferrer">Twitter</a>
-                </div>
-                <p>Designed & Developed by JMehitha</p>
-            </footer>
-        </div>
+            <div class="onee">MY EDUCATION</div>
+            
+
+           
         
+            
+        </div>
     );
 };
 
