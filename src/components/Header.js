@@ -6,7 +6,7 @@ const Header = () => {
         <nav className="header">
             <span className="logo">JMehitha</span>
             <ul className="nav-menu">
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/mehithaj-portfolio">Home</Link></li>
                 <li><Link to="/educate">Educate</Link></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
