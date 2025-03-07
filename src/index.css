@@ -3,6 +3,19 @@
   margin: 0px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+.container {
+  min-height: 100vh; /* Ensure content pushes footer down */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out content */
+}
+
 nav{
   background-color: black;
   color: white;
@@ -70,6 +83,7 @@ input{
 }
 .hero{
   padding-top: 75px;
+  color: black;
   
 
   
@@ -85,15 +99,21 @@ input{
 .p{
   padding: 50px;
 }
-.three{
+three{
   
     text-align: center; 
     max-width: 400px;    
-    padding: 10px 20px;  
-    margin: auto;        
+    /* padding: 10px 20px;   */
+         
     line-height: 1.5; 
+
+
     
     
+}
+.three p{
+  padding-top: 10px;
+  color: #222;
 }
 @keyframes fadeInUp {
   from {
@@ -401,11 +421,12 @@ body {
 /* Description Box */
 .three {
   max-width: 800px;
-  margin: auto;
+  margin-top:20px;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
   border-radius: 10px;
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -437,10 +458,12 @@ body {
 
   .hero h1 {
       font-size: 50px;
+      color: #222;
   }
 
   .hero h2 {
       font-size: 25px;
+      color: #222;
   }
 
   .three {
@@ -548,9 +571,9 @@ footer p {
   color: #bbb;
   text-align: center;
   border-radius: 10px;
-  margin-bottom: 0%;
+  /* margin-bottom: 0%; */
   background: rgba(0, 0, 0, 0.6);
-  margin-bottom: -1px;
+  /* margin-bottom: -1px; */
 }
 
 .social-links {
@@ -602,6 +625,10 @@ footer p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: 30px auto;
+  transition: color 0.3s;
+ 
+  background: rgba(255, 255, 255, 0.2);
+ margin-top: 10px;
 }
 
 .education-container h2 {
@@ -660,4 +687,96 @@ footer p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 25px;
   color:#f4f4f4;
+}
+/* 📚 Education Section Styles */
+.education-container, .courses-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.education-list, .course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: color 0.3s;
+  padding-top: 10PX;
+}
+
+.education-item, .course-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+  /* linear-gradient(135deg, #f3f3f3, #ffffff) */
+ 
+}
+
+.education-item:hover, .education-container:hover, .course-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.education-item h2 {
+  font-size: 22px;
+  color: #222;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.education-item p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+  .education-container, .courses-container {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .education-item h2 {
+    font-size: 20px;
+    
+  }
+
+  h3 {
+    font-size: 16px;
+    padding-top: 5px;
+    
+  }
+
+  .education-item p {
+    font-size: 14px;
+  }
+}
+.education-item{
+  background: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+.education-container{
+  background: white;
+  background: rgba(255, 255, 255, 0.2);
 }

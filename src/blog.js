@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import "./index.css";
 import { useEffect } from "react";
 // import { Link } from 'react-router-dom';
@@ -30,12 +31,29 @@ const Blog = () => {
             <div className="three">
                 <p>A full stack-focused Web Developer building the full stack of Websites & Web Applications that lead to the success of the overall project.</p>
             </div>
-            <div class="onee">MY EDUCATION</div>
-            
 
-           
-        
-            
+            <div className="education-container">
+                <h1 className="title">📚 My Education</h1>
+                <div className="education-list">
+                   
+                    
+                </div>
+            </div>
+
+            <div className="education-item">
+                            <h2>BE COMPUTER SCIENCE ENGINEERING</h2>
+                            <h3>ANGEL COLLEGE OF ENGINEERING AND TECHNOLOGY</h3>
+                            <p>2022 - 2026</p>
+                        </div>
+
+                        <div className="education-item">
+                            <h2>HIGHER SECONDARY SCHOOL</h2>
+                            <h3>INFANT JESUS HIGHER SECONDARY SCHOOL</h3>
+                            <p>2020 - 2022</p>
+                        </div>            
+
+
+
         </div>
     );
 };
