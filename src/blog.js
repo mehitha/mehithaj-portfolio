@@ -24,7 +24,7 @@ const Blog = () => {
 
             {/* Hero Section */}
             <div className="hero">
-                <h2>Hey, I'M</h2>
+                <h2>Hey, I'm</h2>
                 <h1>J MEHITHA</h1> 
             </div>
 
