@@ -13,26 +13,25 @@ const projects = [
         link: "#",
     },
     {
-      title: "Weather App",
-      description: "A real-time weather forecasting app using API integration.",
-      link: "#",
-  },
-  {
-    title: "Weather App",
-    description: "A real-time weather forecasting app using API integration.",
-    link: "#",
-},
-    {
         title: "Expense Tracker",
         description: "A financial tracking tool to manage expenses and budgets.",
         link: "#",
+    },
+    {
+      title: "Expense Tracker",
+      description: "A financial tracking tool to manage expenses and budgets.",
+      link: "#",
+    },
+    {
+      title: "Expense Tracker",
+      description: "A financial tracking tool to manage expenses and budgets.",
+      link: "#",
     },
     {
         title: "Fitness Tracker",
         description: "An application to monitor fitness activities and health goals.",
         link: "#",
     }
-    
 ];
 
 const ProjectCard = ({ project }) => {
@@ -62,7 +61,6 @@ const Project = () => {
 
     return (
         <div className="container">
-            {/* Animated Background */}
             <div className="animated-bg">
                 <div className="circle"></div>
                 <div className="circle"></div>
@@ -71,6 +69,7 @@ const Project = () => {
             </div>
             
             <h1 className="project-header">My Projects</h1>
+            {/* Added ProjectList here */}
             <ProjectList />
         </div>
     );

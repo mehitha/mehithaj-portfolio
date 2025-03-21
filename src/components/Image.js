@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css"; // Import CSS
-import profileImage from "./profile.jpg"; // Import image
+import "./index.css"; 
+import profileImage from "./profile.jpg"; 
 
 const Blog = () => {
   return (
