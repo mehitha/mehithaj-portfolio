@@ -1,4 +1,4 @@
-// import Footer from "./components/Footer";
+
 import "./index.css";
 import { useEffect } from "react";
 import myPic from './images/mypic.jpeg';

@@ -62,7 +62,7 @@ const Internship = () => {
 
     return (
         <div className="container">
-            {/* Animated Background with Two Shades */}
+           
             <div className="animated-bg">
                 <div className="gradient-overlay"></div>
             </div>
