@@ -7,8 +7,8 @@ const Header = () => {
             <span className="logo">JMehitha</span>
             <ul className="nav-menu">
                 <li><Link to="/mehithaj-portfolio">Home</Link></li>
-                <li><Link to="/educate">Education</Link></li>
-                <li><a href="/about">About</a></li>
+                <li><Link to="/educate">Intern</Link></li>
+                <li><a href="/about">Project</a></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
