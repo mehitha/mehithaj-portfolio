@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mehithaj-portfolio/static/css/main.42c2d091.css",
+    "main.css": "/mehithaj-portfolio/static/css/main.17c88e18.css",
     "main.js": "/mehithaj-portfolio/static/js/main.a1e7525f.js",
     "static/js/453.36a7cedf.chunk.js": "/mehithaj-portfolio/static/js/453.36a7cedf.chunk.js",
     "static/media/node.png": "/mehithaj-portfolio/static/media/node.0dd43c16b15eab842b27.png",
@@ -10,12 +10,12 @@
     "static/media/react.png": "/mehithaj-portfolio/static/media/react.1cf0a262f1e153e99e4e.png",
     "static/media/html.png": "/mehithaj-portfolio/static/media/html.b47d892eab1a82bc56bd.png",
     "index.html": "/mehithaj-portfolio/index.html",
-    "main.42c2d091.css.map": "/mehithaj-portfolio/static/css/main.42c2d091.css.map",
+    "main.17c88e18.css.map": "/mehithaj-portfolio/static/css/main.17c88e18.css.map",
     "main.a1e7525f.js.map": "/mehithaj-portfolio/static/js/main.a1e7525f.js.map",
     "453.36a7cedf.chunk.js.map": "/mehithaj-portfolio/static/js/453.36a7cedf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c2d091.css",
+    "static/css/main.17c88e18.css",
     "static/js/main.a1e7525f.js"
   ]
 }
