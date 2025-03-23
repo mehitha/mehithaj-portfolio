@@ -312,7 +312,7 @@ footer p {
   color: white;
 }
 
-@media (max-width: 1204px) {
+/* @media (max-width: 1204px) {
   .footer, .second-footer {
       font-size: 14px;
       margin-bottom: 0;
@@ -329,26 +329,26 @@ footer p {
       gap: 10px;
   }
 
-}
+} */
 .nav-menu:hover{
   color: #222;
 }
 
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .container {
       padding: 30px;
-  }}
+  }} */
 
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
  .header .logo{
         padding-left: 40px; 
         padding-top: 5px;
          padding-bottom: 4px; 
         font-family: Georgia, 'Times New Roman', Times, serif;
         }
-  }
+  } */
 
 
 @media (max-width: 640px) {
@@ -691,4 +691,37 @@ body {
   text-align: center;
  top: -130px;
  left: 595px;
+}
+
+/* Keep your existing styles and add this for mobile */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: #222;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.mobile-nav.open {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+      display: none; /* Hide desktop menu */
+  }
+  .hamburger {
+      display: block; /* Show hamburger menu */
+  }
 }
