@@ -6,7 +6,7 @@ import "./App.css";
 import Blog from "./blog";
 import Educate from "./edu";
 import Contact from "./contact";
-import About from "./about";  // ✅ Import About
+import About from "./about";  
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/mehithaj-portfolio" element={<Blog />} />
           <Route path="/educate" element={<Educate />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />  {/* ✅ Add About Route */}
+          <Route path="/about" element={<About />} />  
         </Routes>
 
         <Footer />

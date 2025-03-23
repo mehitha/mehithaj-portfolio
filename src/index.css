@@ -12,24 +12,7 @@
  
 
 } 
-/* .scroll-container {
-  height: 100vh;
-  overflow-y: auto;
-} */
 
-/* body{
-    overflow: auto;
-} */
-/* .container {
-  min-height: 100vh;
- 
-  flex-direction: column;
-} */
-/* nav{
-  background-color: black;
-  color: white;
-  padding: 15px; 
-} */
 li,h1,ul{
   display: inline;
   padding: 5px;
@@ -38,56 +21,12 @@ li,h1,ul{
 ul{
   margin-left: 700px;
 }
-/* li{
-  color: grey;
-  cursor: pointer;
-} */
-/* li:hover{
-  color: white;
-} */
 
-/* .head1{
-  padding: 50px;
-  text-align: center;
-} */
-/* .head2{
-  text-align: center;
-  padding: 5px;
-} */
-/* .head3{
-  text-align: center;
-  padding: 20x;
-  margin: 40px;
-} */
-/* .head4{
-  text-align: center;
-  background-color: black;
-  color: white;
-} */
-
-/* .p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
 
 .ul {
   cursor: pointer;
 }
 
-/* .hero{
-  padding-top: 2px;
-  color: rgb(255, 255, 255);
-} */
-
-
-/* .two{
-  font-size: 70px;
-  
-  font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} */
-/* .p{
-  padding: 50px;
-} */
 .three{
   
     text-align: center; 
@@ -99,16 +38,7 @@ ul{
   padding: 5px;
   color: white;
 }
-/* @keyframes fadeInUp {
-  from {
-      opacity: 0;
-      transform: translateY(20px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
+
 
 @keyframes slideDown {
   from {
@@ -119,27 +49,8 @@ ul{
       opacity: 1;
       transform: translateY(0);
   }
-} */
+} 
 
-/* .animated {
-  animation: fadeInUp 1s ease-out forwards;
-} */
-
-/* .nav-animated {
-  animation: slideDown 0.8s ease-out forwards;
-} */
-/* body {
-  background: linear-gradient(to right, #1e3c72, #2a5298); 
-  color: white; 
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-} */
-
-/* .container {
-  text-align: center;
-  padding: 50px;
-} */
 
 .nav-menu li {
   display: inline;
@@ -147,38 +58,6 @@ ul{
   padding-right: 30px;
 }
 
-/* .nav-menu a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-} */
-
-/* .hero {
-  margin-top: 40px;
-} */
-
-
-
-/* body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  color: white;
-  background: black;
-} */
-
-/* .animated-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: linear-gradient(-45deg, #ff6b6b, #6b6bff, #6bffb3, #ffb36b);
-  background-size: 400% 400%;
-  animation: gradientAnimation 10s ease infinite;
-} */
 
 @keyframes gradientAnimation {
   0% { background-position: 0% 50%; }
@@ -200,11 +79,6 @@ ul{
   text-align: center;
   padding: 50px;
 }
-
-/* .nav-menu li {
-  display: inline;
-  margin: 0 15px;
-} */
 
 .nav-menu a {
   color: white;
@@ -251,7 +125,11 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
+
+
   background: linear-gradient(-45deg, #2f06c2, #5c5cff, #36b2ff, #33a0ff);
+
+
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
 }
@@ -297,6 +175,7 @@ body {
   position: relative;
   justify-content: center;
   margin-bottom: 0%;
+  background: radial-gradient(rgba(7, 40, 173, 0.3), transparent);
   position: sticky;
   
   top: 0;
@@ -328,7 +207,7 @@ body {
 
 .nav-menu li {
   margin: 0 15px;
-} */
+} 
 
 
 
@@ -575,10 +454,10 @@ body {
   height: 100%;
 }
 
-/* Import Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* Education Section */
+
 .education {
     text-align: center;
     padding: 60px 20px;
@@ -595,7 +474,6 @@ body {
     font-weight: 600;
 }
 
-/* Bubble Container */
 .bubble-container {
     display: flex;
     justify-content: center;
@@ -605,11 +483,11 @@ body {
     position: relative;
 }
 
-/* Bubble Style (Border Only, No Background) */
+
 .bubble {
     width: 200px;
     height: 200px;
-    border: 2px solid white; /* Only Border */
+    border: 2px solid white; 
     color: white;
     display: flex;
     justify-content: center;
@@ -621,10 +499,10 @@ body {
     transition: transform 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
-    background: transparent; /* Remove Card Effect */
+    background: transparent; 
 }
 
-/* Floating Animation */
+
 @keyframes float {
     0% { transform: translateY(0); }
     50% { transform: translateY(-15px); }
@@ -635,13 +513,12 @@ body {
 .bubble:nth-child(2) { animation: float 5s infinite ease-in-out; }
 .bubble:nth-child(3) { animation: float 6s infinite ease-in-out; }
 
-/* Hover Effect */
+
 .bubble:hover {
     transform: scale(1.1);
-    border-color: lightblue; /* Subtle hover effect */
+    border-color: lightblue; 
 }
 
-/* Decorative Elements Inside Bubble */
 .bubble::before {
     content: "";
     position: absolute;
@@ -654,7 +531,7 @@ body {
     opacity: 0.5;
 }
 
-/* Bubble Content */
+
 .bubble-content {
     position: relative;
     z-index: 2;
@@ -674,9 +551,8 @@ body {
     font-weight: 300;
 }
 
-/* 🔥🔥 RESPONSIVE STYLES 🔥🔥 */
 
-/* Medium Devices (Tablets) */
+
 @media (max-width: 768px) {
     .bubble-container {
         flex-direction: column;
@@ -698,7 +574,7 @@ body {
     }
 }
 
-/* Small Devices (Phones) */
+
 @media (max-width: 480px) {
     .education h2 {
         font-size: 1.5rem;
@@ -720,7 +596,7 @@ body {
     }
 }
 
-/* Skills Section */
+
 .skills {
   max-width: 90%;
   width: 800px;
@@ -730,13 +606,13 @@ body {
   color: white;
 }
 
-/* Skills Heading */
+
 .skills h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-/* Skills Grid */
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -744,7 +620,6 @@ body {
   gap: 20px;
 }
 
-/* Skill Logo */
 .skill img {
   width: 70px;
   height: 70px;
@@ -752,19 +627,18 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Skill Name */
+
 .skill p {
   font-size: 16px;
   font-weight: bold;
   margin-top: 8px;
 }
 
-/* Hover Animation */
+
 .skill img:hover {
   transform: scale(1.2);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .skills {
       width: 95%;
