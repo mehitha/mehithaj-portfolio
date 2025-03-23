@@ -725,3 +725,95 @@ body {
       display: block; /* Show hamburger menu */
   }
 }
+/* Keep your existing styles and add this for responsiveness */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+/* Mobile Navigation Menu (Hidden by Default) */
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background: #222;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Show Mobile Menu When Open */
+.mobile-nav.open {
+    display: flex;
+}
+
+/* Hide Desktop Menu When Mobile Nav is Open */
+.nav-menu.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none; /* Hide Desktop Menu */
+    }
+    .hamburger {
+        display: block; /* Show Hamburger Icon */
+    }
+}
+
+
+
+/* Keep your existing styles and add this for responsiveness */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+/* Mobile Navigation Menu (Hidden by Default) */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: #222;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Show Mobile Menu When Open */
+.mobile-nav.open {
+  display: flex;
+}
+
+/* Hide Desktop Menu When Mobile Nav is Open */
+.nav-menu.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+      display: none; /* Hide Desktop Menu */
+  }
+  .hamburger {
+      display: block; /* Show Hamburger Icon */
+  }
+}
+
