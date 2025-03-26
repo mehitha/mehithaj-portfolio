@@ -271,16 +271,35 @@ body {
   
 }
 
+@media (min-width: 769px) and (max-width: 1030px) {
+.three{
+  left: -4px;
+}
+.image-container{
+  left:-70px;
+}
+.hero h1{
+  left: 390px;
+}
+.hero h2{
+  right: 100px;
+  left: 270px !important;
+  
+}
+}
+
+
+
 @media (max-width: 768px) {
   .hero h1 {
-    top: 8%; /* Adjusted for smaller screens */
-    font-size: 3rem; /* Smaller font for tablets */
+    top: 8%; 
+    font-size: 3rem; 
     max-width: 85%;
     left: 150px;
   }
   .hero h2 {
    
-    font-size: 1.5rem; /* Adjust font size */
+    font-size: 1.5rem; 
    
     transform: translateX(-70%); 
     top:8%;
@@ -292,8 +311,8 @@ body {
 
   }
   .three {
-    max-width: 60%; /* Adjust width for tablets */
-    font-size: 1.1rem; /* Slightly smaller text */
+    max-width: 60%; 
+    font-size: 1.1rem; 
     padding: 15px;
     left: -119px;
     top: 60px;
@@ -303,11 +322,11 @@ body {
 }
 
 
-/* 🔹 Mobile View (Width 480px and below) */
+
 @media (max-width: 480px) {
   .hero h1 {
     top: -10px;
-    font-size: 2rem; /* Further reduced font for mobile */
+    font-size: 2rem; 
     max-width: 90%;
     left:220px;
     
@@ -319,8 +338,8 @@ body {
     
   }
   .three {
-    max-width: 40%; /* Adjust width for tablets */
-    font-size: 1.1rem; /* Slightly smaller text */
+    max-width: 40%;
+    font-size: 1.1rem; 
     padding: 10px;
 
     left: -200px;
@@ -329,19 +348,20 @@ body {
   }
 }
 
+
+
+
+
+
+
+
 .header .logo{
 padding-left: 5px; 
 padding-top: 5px;
  padding-bottom: 4px; 
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-  
-/* footer{
-  margin: bottom 1px;
-  
-  margin-top: 20px;
-  position: relative;
-} */
+
 
 
 

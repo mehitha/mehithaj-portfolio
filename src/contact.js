@@ -147,9 +147,6 @@
 
 
 
-
-
-
 import React, { useEffect } from "react";
 
 const Contact = () => {
@@ -178,11 +175,9 @@ const Contact = () => {
       width: "100%",
     },
     card: {
-      margin: "40px",
-     
+      margin: "20px auto",
       width: "90%",
       maxWidth: "600px",
-     
     },
     title: {
       fontSize: "2rem",
@@ -207,18 +202,31 @@ const Contact = () => {
       display: "inline-block",
       fontSize: "1rem",
       color: "white",
-      // background: "rgba(0, 0, 0, 0.2)",
     },
     cartoonBox: {
       background: "white",
       border: "2px solid black",
       borderRadius: "15px",
-      padding: "20px", // Increased padding for better spacing
+      padding: "15px",
+      display: "flex",
+      justifyContent: "flex-start",
+      position: "relative",
+      left: "-15px",
+      // display: "inline-block",
       textAlign: "center",
       boxShadow: "5px 5px 0 black",
       transition: "transform 0.3s ease-in-out",
+   
+      maxWidth: "150px",
+      alignItems: "center", 
+      // marginRight: "auto", 
       width: "100%",
-      maxWidth: "150px", // Ensuring consistent box size
+      // display: "flex",
+  flexDirection: "column",
+  
+   
+  margin: "0 auto",
+      flex: "1 1 120px",
     },
     cartoonImg: {
       width: "50px",
@@ -237,50 +245,50 @@ const Contact = () => {
     <div style={styles.container}>
       <style>{`
         .cartoonSection {
-          display: grid;
-          width: 90%;
-          max-width: 900px;
-          gap: 25px; /* Increased space between boxes */
-          grid-template-columns: repeat(1, 1fr); /* Default: 1 box per row */
+          display: flex;
+          flex-wrap: wrap;
           justify-content: center;
           align-items: center;
+          width: 90%;
+          max-width: 1000px;
+          gap: 20px;
         }
 
-        @media (min-width: 600px) {
+        .cartoonBox {
+          transition: transform 0.3s ease-in-out;
+          flex: 1 1 150px; /* Allows items to resize */
+        }
+
+        .cartoonBox:hover {
+          transform: scale(1.1);
+        }
+
+        @media (max-width: 480px) {
           .cartoonSection {
-            grid-template-columns: repeat(2, 1fr); /* 2 boxes per row on tablets */
+            flex-direction: column;
+            align-items: center;
           }
         }
 
-        @media (min-width: 900px) {
+        @media (min-width: 481px) and (max-width: 768px) {
           .cartoonSection {
-            grid-template-columns: repeat(3, 1fr); /* 3 boxes per row on medium screens */
+            display: grid;
+            // left:0px
+            grid-template-columns: repeat(2, 1fr);
           }
         }
 
-        @media (min-width: 1200px) {
+        @media (min-width: 769px) and (max-width: 1024px) {
           .cartoonSection {
-            grid-template-columns: repeat(4, 1fr); /* 4 boxes per row on large screens */
+            grid-template-columns: repeat(3, 1fr);
           }
-            
         }
-          @media (max-width: 600px) {
-    .cartoonBox {
-      max-width: 120px; /* Smaller size on very small screens */
-    }
-  }
 
-  @media (min-width: 900px) {
-    .cartoonBox {
-      max-width: 180px; /* Slightly bigger on medium screens */
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .cartoonBox {
-      max-width: 200px; /* Bigger size on large screens */
-    }
-  }
+        @media (min-width: 1025px) {
+          .cartoonSection {
+            grid-template-columns: repeat(4, 1fr);
+          }
+        }
       `}</style>
 
       <div style={styles.card}>
@@ -298,7 +306,7 @@ const Contact = () => {
           { name: "GitHub", link: "https://github.com/mehitha", img: "https://cdn-icons-png.flaticon.com/512/2111/2111432.png" },
           { name: "YouTube", link: "https://youtube.com", img: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png" },
           { name: "LinkedIn", link: "https://linkedin.com/in/mehitha", img: "https://cdn-icons-png.flaticon.com/512/145/145807.png" },
-          { name: "Instagram", link: "https://instagram.com/mehitha", img: "https://cdn-icons-png.flaticon.com/512/1384/1384063.png" }
+          { name: "Instagram", link: "https://instagram.com/mehitha", img: "https://cdn-icons-png.flaticon.com/512/1384/1384063.png" },
         ].map((item, index) => (
           <div key={index} className="cartoonBox" style={styles.cartoonBox}>
             <img src={item.img} alt={`${item.name} Cartoon`} style={styles.cartoonImg} />
@@ -314,3 +322,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+

@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
 const projects = [
-    { title: "AI Chatbot", description: "An AI-powered chatbot for automation.", link: "#" },
-    { title: "Weather App", description: "A real-time weather app with API integration.", link: "#" },
+    { title: "MY PORTFOLIO", description: "portfolio is my first react project.", link: "https://mehitha.github.io/mehithaj-portfolio" },
+    { title: "Weather App", description: "A real-time app with API integration.", link: "#" },
     { title: "Expense Tracker", description: "A tool to manage expenses and budgets.", link: "#" },
     { title: "Fitness Tracker", description: "An app to monitor fitness activities.", link: "#" }
 ];
@@ -43,7 +43,7 @@ const Project = () => {
                     .container {
                         font-family: 'Comic Sans MS', cursive, sans-serif;
                         text-align: center;
-                        background: linear-gradient(135deg, #4A90E2, #1E3A8A);
+                         background: linear-gradient(-45deg, #2f06c2, #1915da, #2434df);
                         padding: 40px 20px;
                         min-height: 100vh;
                         display: flex;
@@ -52,18 +52,18 @@ const Project = () => {
                         color: white;
                     }
 
-                    .project-header {
-                        font-size: 2.5rem;
-                        color: #FFD700;
-                        text-shadow: 3px 3px 0px black;
-                        animation: pop-in 1s ease-out;
-                        background: white;
-                        padding: 10px 20px;
-                        border-radius: 15px;
-                        border: 3px solid black;
-                        box-shadow: 5px 5px 0px black;
-                        color: #4A90E2;
-                    }
+                    // .project-header {
+                    //     font-size: 2.5rem;
+                    //     color: #FFD700;
+                    //     text-shadow: 3px 3px 0px black;
+                    //     animation: pop-in 1s ease-out;
+                    //     background: white;
+                    //     padding: 10px 20px;
+                    //     border-radius: 15px;
+                    //     border: 3px solid black;
+                    //     box-shadow: 5px 5px 0px black;
+                    //     color: #4A90E2;
+                    // }
 
                     .projects-container {
                         display: flex;
@@ -83,7 +83,7 @@ const Project = () => {
 
                     .speech-bubble {
                         padding: 20px;
-                        background: #FFD700;
+                        background: white;
                         border-radius: 20px;
                         position: relative;
                         border: 3px solid black;
@@ -115,7 +115,7 @@ const Project = () => {
                         display: inline-block;
                         margin-top: 10px;
                         padding: 8px 12px;
-                        background: #4A90E2;
+                        background:rgba(71, 51, 223, 0.94);
                         color: white;
                         text-decoration: none;
                         border-radius: 5px;
