@@ -249,7 +249,7 @@ body {
   color: white;
   text-align: center;
  top: -40px;
- right: 180px;
+ right: 140px;
  align-items: center;
  
   
@@ -266,24 +266,25 @@ body {
   position: absolute;
   text-align: center;
  top: -150px;
- left: 500px;
+ left: -90px;
+ white-space: nowrap;
   
   
 }
 
 @media (min-width: 769px) and (max-width: 1030px) {
 .three{
-  left: -4px;
+  left: -25px;
 }
 .image-container{
-  left:-70px;
+  left:-10px;
 }
 .hero h1{
-  left: 390px;
+  left: -100px;
 }
 .hero h2{
   right: 100px;
-  left: 270px !important;
+  left: 10px !important;
   
 }
 }
@@ -295,7 +296,7 @@ body {
     top: 8%; 
     font-size: 3rem; 
     max-width: 85%;
-    left: 150px;
+    left: -220px;
   }
   .hero h2 {
    
@@ -305,9 +306,9 @@ body {
     top:8%;
     padding-left: -10px;
     top: 100px;
-    width: 1500px;
+    /* width: 1500px; */
     top: -30px !important;
-   
+   left: -60px !important; 
 
   }
   .three {
@@ -317,6 +318,9 @@ body {
     left: -119px;
     top: 60px;
     
+  }
+  .image-container{
+    left: 150px;
   }
 
 }
@@ -328,12 +332,12 @@ body {
     top: -10px;
     font-size: 2rem; 
     max-width: 90%;
-    left:220px;
+    left:-170px;
     
   }
   .hero h2 {
     top: 7%;
-    
+   right: -30px;
     
     
   }
@@ -506,7 +510,7 @@ footer p {
     align-items: center; 
     margin-top:50px;
     position: relative;
-    margin-left: 290px; 
+    margin-left: -290px; 
     z-index: 1;
     flex: 1;
    
@@ -799,7 +803,10 @@ body {
   position: absolute;
   text-align: center;
  top: -190px;
- left: 595px;
+ left: 5px;
+ display: flex;
+ white-space: nowrap;
+
 }
 
 /* Keep your existing styles and add this for mobile */

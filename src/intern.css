@@ -11,7 +11,7 @@
 }
 
 /* Header */
-.header {
+.heading {
   /* font-size: 2.5rem;
   font-weight: bold; */
   margin-bottom: 20px;
@@ -22,7 +22,9 @@
   display: inline-block;
   padding: 10px 20px;
   /* background: #ffcc00; */
-  border-radius: 20px;
+  
+  align-items: center;
+  
   
 }
 
@@ -40,7 +42,7 @@
 .internship-category {
   background: white;
   border-radius: 15px;
-  padding: 20px;
+  padding: 15px;
   /* box-shadow: 6px 6px 0px black; */
   text-align: center;
   border: 2px solid black;
@@ -58,6 +60,7 @@
   border: 2px solid black;
 }
 
+
 .internship-card:hover {
   transform: scale(1.05);
 }
@@ -66,10 +69,37 @@
 @media (max-width: 768px) {
   .internship-grid {
     grid-template-columns: 1fr;
-    padding: 40px;
+    padding: 20px;
+    padding-left: 0px;
+
   }
   .internship-category{
     max-width: 450px;
     margin-left: 145px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    margin: auto; 
+    padding: 10px; 
+    padding-bottom: 10px;
+    
   }
+  .internship-card{
+    padding: 10px;
+    width: 50%; /* Adjust width as needed */
+    margin: auto; /* Centers the box */
+    padding: 20px; 
+    padding-bottom: 10px;
+    
+  }
+}
+
+@media (max-width: 450px){
+.internship-category{
+  /* padding-right: 10px; */
+  width: 40%;
+  /* margin: auto; 
+  padding: 10px;  */
+
+}
 }

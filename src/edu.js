@@ -41,7 +41,7 @@ const internships = [
 const Internship = () => {
   return (
     <div className="container">
-      <h1 className="header">My Internships</h1>
+      <h1 className="heading">My Internships</h1>
       <div className="internship-grid">
         {internships.map((section, index) => (
           <div key={index} className="internship-category">
